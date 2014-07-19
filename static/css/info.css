@@ -5,6 +5,7 @@ body {
 }
 
 nav {
+    height: 30px;
     text-align: center;
 }
 
@@ -27,4 +28,24 @@ nav a:after {
 
 nav a:last-child:after {
   content: '';
+}
+
+nav .icon {
+    background-image: url('/static/images/icon_bw.png');
+    background-size: 44px 24px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+}
+
+nav .icon:hover {
+    background-image: url('/static/images/icon_color.png');
+    background-size: 44px 24px;
+    background-repeat: no-repeat;
+}
+
+article {
+    font-size: 1.1em;
+    padding: 20px 25px;
 }

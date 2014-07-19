@@ -1,5 +1,16 @@
 {% extends "main_base.html" %}
 
 {% block body %}
-
+    <div id="flat">
+        <img src="{% static '/static/images/flat_shape_960.png' %}"
+             width="960" height="592" alt="Flat plattegrond" usemap="#flat">
+        <map name="flat">
+          <area shape="poly" coords="80,358, 251,359, 251,408, 360,407, 366,577, 80,574" href="pers.html" alt="Pers">
+          <area shape="poly" coords="249,84, 482,85, 478,303, 249,309" href="over.html" alt="Over">
+          <area shape="poly" coords="498,158, 717,157, 718,397, 498,390" href="inschrijven.html" alt="Inschrijven">
+          <area shape="poly" coords="732,357, 876,358, 871,587, 603,587, 597,415 730,412" href="contact.html" alt="Contact">
+          <area shape="poly" coords="368,316, 486,314, 488,412, 585,411, 583,586, 376,586" href="fotos.html" alt="Foto's">
+        </map>
+    </div>
+    <h1>Experimentele Flats Overvecht</h1>
 {% endblock %}

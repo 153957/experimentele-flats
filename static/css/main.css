@@ -3,9 +3,3 @@ body {
     margin: 0 auto;
     width: 960px;
 }
-
-#flat {
-    background-image: url('../images/flat_shape_960.png');
-    width: 960px;
-    height: 592px;
-}

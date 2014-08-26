@@ -20,16 +20,21 @@
     <body>
         <nav>
             <a href="index.html"><span class="icon"></span></a>
-            <a href="over.html">Over de Experimentele Flats</a>
-            <a href="inschrijven.html">Inschrijven</a>
-            <a href="fotos.html">Foto's</a>
-            <a href="archief.html">Archief</a>
-            <a href="contact.html">Contact</a>
+            <a class="{% block current_over %}{% endblock %}" href="over.html">Over de Experimentele Flats</a>
+            <a class="{% block current_inschrijven %}{% endblock %}"href="inschrijven.html">Inschrijven</a>
+            <a class="{% block current_fotos %}{% endblock %}"href="fotos.html">Foto's</a>
+            <a class="{% block current_archief %}{% endblock %}"href="archief.html">Archief</a>
+            <a class="{% block current_contact %}{% endblock %}"href="contact.html">Contact</a>
         </nav>
         <article>
             {% block article %}
             {% endblock %}
         </article>
+        <footer>
+            <p>
+                Contact: <a href="mailto:info@experimentele-flats.nl">info@experimentele-flats.nl</a>.
+            </p>
+        </footer>
 
         <script src="{% static '/static/js/vendor/jquery-1.10.2.js' %}"></script>
         <script src="{% static '/static/js/main.js' %}"></script>

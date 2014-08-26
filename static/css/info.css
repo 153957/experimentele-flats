@@ -30,6 +30,10 @@ nav a:last-child:after {
   content: '';
 }
 
+nav a.active {
+    color: green;
+}
+
 nav .icon {
     background-image: url('/static/images/icon_bw.png');
     background-size: 44px 24px;
@@ -48,6 +52,13 @@ nav .icon:hover {
 article {
     font-size: 1.1em;
     padding: 20px 25px;
+}
+
+footer {
+    border-top: black solid 1px;
+    text-align: center;
+    font-size: 80%;
+    margin: 0 80px;
 }
 
 .clear {

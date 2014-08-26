@@ -63,8 +63,10 @@ footer {
     text-align: center;
     font-size: 80%;
     margin: 0 80px;
+    clear: both;
 }
 
 .clear {
+    display: block;
     clear: both;
 }

@@ -4,15 +4,37 @@
 
 {% block article %}
 
+<a href="http://www.openstreetmap.org/#map=17/52.11997/5.10078" target="_blank">
+    <img style="float: right; padding: 10px; border-radius: 20px; width: 50%;"
+         src="{% static '/static/images_over/kaart.png' %}" />
+</a>
+
 <h3>De flats</h3>
 
-<img style="float: right; padding: 10px; border-radius: 20px; width: 50%;" src="{% static '/static/images_over/kaart.png' %}" />
-
 <p>
-    Het wooncomplex ‘Experimentele flats’ bestaat uit elf flats in Overvecht- Noord. Zes hiervan zijn koopwoningen, de rest wordt verhuurd door Portaal. Hiervan is één hoogbouw flat met zeven woonlagen, en vier laagbouw flats met vier woonlagen. De hoogbouw flat heeft een lift.
+    Het wooncomplex ‘Experimentele flats’ bestaat uit elf flats in
+    Overvecht- Noord. Vijf hiervan worden verhuurd door <a
+    href="http://www.portaal.nl/bijzonderutrecht.aspx" target="_blank">Portaal</a>
+    (met rood aangegeven op de kaart), de anderen zijn koopwoningen. Van
+    de huurflats is er één hoogbouw flat met zeven woonlagen, en vier
+    laagbouw flats met vier woonlagen. De hoogbouw flat heeft een lift.
 </p>
 
+<span style="clear: both; display: block"></span>
+
+
 <h3>De woningen</h3>
+
+<span style="float: left;">
+    <a href="{% static '/static/images_over/plattegrond_3_kamerappartement.png' %}" target="_blank">
+        <img style="display: inline-block; padding: 10px; height: 90px;"
+             src="{% static '/static/images_over/plattegrond_3_kamerappartement.png' %}" />
+    </a>
+    <a href="{% static '/static/images_over/plattegrond_4_kamerappartement.png' %}" target="_blank">
+        <img style="display: inline-block; padding: 10px; height: 90px;"
+             src="{% static '/static/images_over/plattegrond_4_kamerappartement.png' %}" />
+    </a>
+</span>
 
 <p>
     Per verdieping zijn er vier appartementen: twee driekamer- en twee
@@ -22,7 +44,11 @@
     schuifwanden op verschillende manieren ingedeeld worden.
 </p>
 
-<img style="float: left; padding: 10px; width: 40%;" src="{% static '/static/images_over/plattegrond.png' %}" />
+<span style="clear: both; display: block"></span>
+
+
+<img style="float: right; padding: 10px; width: 35%;"
+     src="{% static '/static/images_over/plattegrond.png' %}" />
 
 <h3>Gezamenlijke hal</h3>
 
@@ -40,7 +66,8 @@
 <p>
     Als een bewoner gaat verhuizen, bepalen de buren op de hal wie de
     nieuwe bewoner mag worden. Dit doen zij aan de hand van een
-    profielschets, waarmee zij een selectie maken uit de inschrijvingen
+    profielschets, waarmee zij een selectie maken uit de <a href="{% url 'inschrijven.html' %}">
+    inschrijvingen</a>
     in de wachtlijst. Na een kennismakingsgesprek wordt bepaald, wie de
     nieuwe halbewoner wordt.
 </p>

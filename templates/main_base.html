@@ -25,13 +25,12 @@
 
         <script src="{% static '/static/js/vendor/jquery-1.10.2.js' %}"></script>
         <script src="{% static '/static/js/main.js' %}"></script>
-    </body>
-
-    {% block scripts %}
-    {% endblock %}
-    <script>
-        {% block script %}
+        {% block scripts %}
         {% endblock %}
-    </script>
+        <script>
+            {% block script %}
+            {% endblock %}
+        </script>
+    </body>
 
 </html>

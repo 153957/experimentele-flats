@@ -9,5 +9,5 @@ before_install:
 script:
   - cactus build
   - cd .build 
-  - CHECK=$(for file in *.html; do python html5check.py -geh $file; done;)
+  - CHECK=$(for file in *.html; do python ../html5check.py -geh $file; done;)
   - if [[ ! -z "$CHECK" ]]; then exit 1; fi;

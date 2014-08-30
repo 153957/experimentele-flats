@@ -5,24 +5,21 @@
 {% block article %}
 <h2>Buiten</h2>
 
-<img style="float: right; padding: 10px; border-radius: 20px; width: 45%;"
-     src="{% static '/static/images_fotos/buiten/ADL_143778.jpg' %}" alt="">
-<img style="float: right; padding: 10px; border-radius: 20px; width: 45%;"
-     src="{% static '/static/images_fotos/buiten/ARN_060977.jpg' %}" alt="">
-<img style="float: right; padding: 10px; border-radius: 20px; width: 45%;"
-     src="{% static '/static/images_fotos/buiten/ARN_060981.jpg' %}" alt="">
-<img style="float: right; padding: 10px; border-radius: 20px; width: 90%;"
-     src="{% static '/static/images_fotos/buiten/ADL_165833.jpg' %}" alt="">
+<div class="fotos">
+    <img src="{% static '/static/images_fotos/buiten/ADL_143778.jpg' %}" alt="">
+    <img src="{% static '/static/images_fotos/buiten/ARN_060977.jpg' %}" alt="">
+    <img src="{% static '/static/images_fotos/buiten/ARN_060981.jpg' %}" alt="">
+    <img class="fullwidth" src="{% static '/static/images_fotos/buiten/ADL_165833.jpg' %}" alt="">
+</div>
 
 <span class="clear"></span>
 
 <h2>Activiteiten</h2>
 
-<img style="float: right; padding: 10px; border-radius: 20px; width: 45%;"
-     src="{% static '/static/images_fotos/activiteiten/DSC_3183.jpg' %}" alt="">
-<img style="float: right; padding: 10px; border-radius: 20px; width: 45%;"
-     src="{% static '/static/images_fotos/activiteiten/DSC_3184.jpg' %}" alt="">
-<img style="float: right; padding: 10px; border-radius: 20px; width: 45%;"
-     src="{% static '/static/images_fotos/activiteiten/DSC_3187.jpg' %}" alt="">
+<div class="fotos">
+    <img src="{% static '/static/images_fotos/activiteiten/DSC_3183.jpg' %}" alt="">
+    <img src="{% static '/static/images_fotos/activiteiten/DSC_3184.jpg' %}" alt="">
+    <img src="{% static '/static/images_fotos/activiteiten/DSC_3187.jpg' %}" alt="">
+</div>
 
 {% endblock %}

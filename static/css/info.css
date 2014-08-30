@@ -68,6 +68,17 @@ a {
     text-decoration: none;
 }
 
+div.fotos img {
+    float: right;
+    padding: 2%;
+    border-radius: 20px;
+    width: 46%;
+}
+
+div.fotos img.fullwidth {
+    width: 96%;
+}
+
 footer {
     border-top: black solid 1px;
     text-align: center;

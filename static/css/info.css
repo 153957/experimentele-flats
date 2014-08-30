@@ -60,6 +60,7 @@ nav .icon:hover {
 }
 
 article {
+    min-height: 500px;
     font-size: 1em;
     padding: 20px 90px;
 }

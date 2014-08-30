@@ -9,4 +9,4 @@ before_install:
 script:
   - cactus build
   - cd .build 
-  - for file in *.html; do python ../html5check.py -eh $file; done;
+  - for file in *.html; do python ../html5check.py -eh $file; done | grep -q Error

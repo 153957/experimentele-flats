@@ -42,3 +42,22 @@ To update the live server use these commands:
     rm -rf .build
     cactus build
     rsync -avz .build/ [username]@[server address]:[path to web root]
+
+
+Colors & Fonts
+--------------
+
+We use these colors:
+
+    Green: #26a522
+    Yellow: #fdc90c
+
+Also used but less important:
+
+    Black: #000000
+    Blue: #0037ff
+
+And these fonts:
+
+    Title and menuitems: Museo 700 Regular (serif)
+    Button text on main page: MuseoSans 500 (sans-serif)

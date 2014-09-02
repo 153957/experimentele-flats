@@ -1,16 +1,25 @@
 {% extends "main_base.html" %}
 
 {% block body %}
-    <div id="flat">
-        <img src="{% static '/static/images_index/index_960.png' %}"
-             width="960" height="720" usemap="#flat"
-             alt="Flat plattegrond, elke ruimte is link naar andere pagina">
-        <map name="flat">
-          <area shape="poly" coords="80,486,251,487,251,536,360,535,366,705,80,702" href="inschrijven.html" alt="Inschrijven">
-          <area shape="poly" coords="249,212,482,213,478,431,249,437" href="over.html" alt="Over">
-          <area shape="poly" coords="498,286,717,285,718,525,498,518" href="fotos.html" alt="Foto's">
-          <area shape="poly" coords="732,485,876,486,871,715,603,715,597,543,730,540" href="archief.html" alt="Archief">
-          <area shape="poly" coords="368,444,486,442,488,540,585,539,583,714,376,714" href="contact.html" alt="Contact">
-        </map>
-    </div>
+
+<img src="{% static '/static/images_index/logo.png' %}"
+     width="160px" id="logo">
+<span id="maintitle">Experimentele Flats</span><br>
+<span id="subtitle">Overvecht</span>
+
+<span class="clear"></span>
+
+<div id="flat">
+    <img src="{% static '/static/images_index/index_960.png' %}"
+         width="960" height="599" usemap="#flat"
+         alt="Flat plattegrond, elke ruimte is link naar andere pagina">
+    <map name="flat">
+      <area shape="poly" coords="79,358,251,345,251,408,360,405,366,580,80,581" href="inschrijven.html" alt="Inschrijven">
+      <area shape="poly" coords="249,82,481,82,483,307,249,311" href="over.html" alt="Over">
+      <area shape="poly" coords="498,155,717,155,721,403,498,390" href="fotos.html" alt="Foto's">
+      <area shape="poly" coords="732,355,876,358,871,588,603,588,597,413,730,411" href="archief.html" alt="Archief">
+      <area shape="poly" coords="370,316,487,322,488,412,585,410,583,592,376,592" href="contact.html" alt="Contact">
+    </map>
+</div>
+
 {% endblock %}

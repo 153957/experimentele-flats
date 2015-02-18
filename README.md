@@ -19,7 +19,7 @@ Also pip is used to install cactus.
 Other packages that are required by cactus are automatically installed.
 So open a Terminal and run:
 
-    pip install https://github.com/koenbok/Cactus/archive/v3.zip
+    pip install https://github.com/koenbok/Cactus/archive/master.zip
 
 If all goes well cactus can now be used.
 

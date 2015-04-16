@@ -34,7 +34,7 @@
         </article>
         <footer>
             <p>
-                Contact: <a href="mailto:info@experimentele-flats.nl">info@experimentele-flats.nl</a>.
+                Contact: <a class="mail">[enable JavaScript]</a>.
             </p>
         </footer>
 
@@ -43,6 +43,11 @@
         {% block scripts %}
         {% endblock %}
         <script>
+            $(document).ready(function() {
+                var p = ["fo", "in", "nl", "-flats", "experimentele", ".", "@"];
+                var email = p[1] + p[0] + p[6] + p[4] + p[3] + p[5] + p[2];
+                $('.mail').html(email).prop('href', 'mailto:' + email)
+            });
             {% block script %}
             {% endblock %}
         </script>

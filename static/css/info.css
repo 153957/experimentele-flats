@@ -69,6 +69,10 @@ a {
     text-decoration: none;
 }
 
+.mail {
+    white-space: nowrap;
+}
+
 div.fotos img {
     float: right;
     padding: 2%;

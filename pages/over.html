@@ -4,6 +4,15 @@
 
 {% block article %}
 
+       <div id="sidebar"></div>
+        <nav>
+        <ul id="menu-v">
+            <a href="{% url '/flats.html' %}">De Flats</a></li>
+            <a href="{% url '/woningen.html' %}">Woningen</a></li>
+            <a href="{% url '/bijzonderwonen.html' %}">Bijzonder wonen</a>
+            <a href="{% url '/nieuws.html' %}">Nieuws</a></li>
+        </ul>
+        </nav>
 
 <a href="http://www.openstreetmap.org/#map=17/52.11997/5.10078" target="_blank">
     <img style="float: right; padding: 10px; border-radius: 20px; width: 50%;"

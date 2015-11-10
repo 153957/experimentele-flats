@@ -1,0 +1,27 @@
+{% extends "info_base.html" %}
+
+{% block current_over %}active{% endblock %}
+
+{% block article %}
+
+<a href="http://www.openstreetmap.org/#map=17/52.11997/5.10078" target="_blank">
+    <img style="float: right; padding: 10px; border-radius: 20px; width: 50%;"
+         src="{% static '/static/images_over/kaart.png' %}"
+         alt="OpenStreetMap kaart van locatie experimentele flats">
+</a>
+
+<h3>De flats</h3>
+
+<p>
+    Het wooncomplex ‘Experimentele flats’ bestaat uit elf flats in
+    Overvecht-Noord, Utrecht. Vijf hiervan worden verhuurd door <a
+    href="http://www.portaal.nl/bijzonderutrecht.aspx" target="_blank">Portaal</a>
+    (met rood aangegeven op de kaart), de andere zijn koopwoningen. Van
+    de huurflats is er één hoogbouw flat met zeven woonlagen, en vier
+    laagbouw flats met vier woonlagen. De hoogbouw flat heeft een lift.
+</p>
+
+<span class="clear"></span>
+
+
+{% endblock %}

@@ -28,6 +28,10 @@
             <a class="{% block current_archief %}{% endblock %}" href="archief.html">Archief</a>
             <a class="{% block current_contact %}{% endblock %}" href="contact.html">Contact</a>
         </nav>
+		<nav id="submenu">
+			{% block submenu %}
+			{% endblock %}
+		</nav>
         <article>
             {% block article %}
             {% endblock %}

@@ -1,0 +1,10 @@
+{% extends "info_base.html" %}
+
+{% block current_over %}active{% endblock %}
+
+{% block submenu %}
+    <a class="{% block current_flats %}{% endblock %}" href="{% url '/flats.html' %}">De flats</a>
+	<a class="{% block current_woningen %}{% endblock %}" href="{% url '/woningen.html' %}">Woningen</a>
+	<a class="{% block current_bijzonderwonen %}{% endblock %}" href="{% url '/bijzonderwonen.html' %}">Bijzonder wonen</a>
+	<a class="{% block current_nieuws %}{% endblock %}" href="{% url '/nieuws.html' %}">Nieuws</a>
+{% endblock %}

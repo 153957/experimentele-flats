@@ -4,6 +4,14 @@
 
 {% block article %}
 
+<ul id="menu-v">
+    <li><a href="{% url '/flats.html' %}">De Flats</a></li>
+    <li><a href="{% url '/woningen.html' %}">Woningen</a></li>
+    <li><a href="{% url '/bijzonderwonen.html' %}">Bijzonder wonen</a></li>
+    <li><a href="{% url '/nieuws.html' %}">Nieuws</a></li>
+</ul>
+
+
 <a href="http://www.openstreetmap.org/#map=17/52.11997/5.10078" target="_blank">
     <img style="float: right; padding: 10px; border-radius: 20px; width: 50%;"
          src="{% static '/static/images_over/kaart.png' %}"

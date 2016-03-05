@@ -101,3 +101,8 @@ footer {
     display: block;
     clear: both;
 }
+
+h5 {
+    margin-bottom: 10px;
+    font-weight: normal;
+}

@@ -12,14 +12,14 @@ This is the website for the experimentele flats in Utrecht Overvecht.
 Installing cactus
 -----------------
 
-This site uses [Cactus](https://github.com/koenbok/Cactus/) to build.
+This site uses [Cactus](https://github.com/eudicots/Cactus/) to build.
 
 Cactus is a Python program, so Python 2.7 is required.
 Also pip is used to install cactus.
 Other packages that are required by cactus are automatically installed.
 So open a Terminal and run:
 
-    pip install https://github.com/koenbok/Cactus/archive/master.zip
+    pip install cactus
 
 If all goes well cactus can now be used.
 

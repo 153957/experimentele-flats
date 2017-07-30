@@ -22,11 +22,11 @@
         <div id="topbar"></div>
         <nav>
             <a href="index.html"><span class="icon"></span></a>
-            <a class="{% block current_over %}{% endblock %}" href="over.html">Over de Experimentele Flats</a>
-            <a class="{% block current_inschrijven %}{% endblock %}" href="inschrijven.html">Inschrijven</a>
-            <a class="{% block current_fotos %}{% endblock %}" href="fotos.html">Foto's</a>
-            <a class="{% block current_archief %}{% endblock %}" href="archief.html">Archief</a>
-            <a class="{% block current_contact %}{% endblock %}" href="contact.html">Contact</a>
+            <a class="{% block current_over %}{% endblock %}" href="{% url 'over.html' %}">Over de Experimentele Flats</a>
+            <a class="{% block current_inschrijven %}{% endblock %}" href="{% url 'inschrijven.html' %}">Inschrijven</a>
+            <a class="{% block current_fotos %}{% endblock %}" href="{% url 'fotos.html' %}">Foto's</a>
+            <a class="{% block current_archief %}{% endblock %}" href="{% url 'archief.html' %}">Archief</a>
+            <a class="{% block current_contact %}{% endblock %}" href="{% url 'contact.html' %}">Contact</a>
         </nav>
 		<nav id="submenu">
 			{% block submenu %}

@@ -14,11 +14,11 @@
          width="960" height="599" usemap="#flat"
          alt="Flat plattegrond, elke ruimte is link naar andere pagina">
     <map name="flat">
-      <area shape="poly" coords="79,358,251,345,251,408,360,405,366,580,80,581" href="inschrijven.html" alt="Inschrijven">
-      <area shape="poly" coords="249,82,481,82,483,307,249,311" href="over.html" alt="Over">
-      <area shape="poly" coords="498,155,717,155,721,403,498,390" href="fotos.html" alt="Foto's">
-      <area shape="poly" coords="732,355,876,358,871,588,603,588,597,413,730,411" href="archief.html" alt="Archief">
-      <area shape="poly" coords="370,316,487,322,488,412,585,410,583,592,376,592" href="contact.html" alt="Contact">
+      <area shape="poly" coords="79,358,251,345,251,408,360,405,366,580,80,581" href="{% url '/inschrijven.html' %}" alt="Inschrijven">
+      <area shape="poly" coords="249,82,481,82,483,307,249,311" href="{% url '/over.html' %}" alt="Over">
+      <area shape="poly" coords="498,155,717,155,721,403,498,390" href="{% url '/fotos.html' %}" alt="Foto's">
+      <area shape="poly" coords="732,355,876,358,871,588,603,588,597,413,730,411" href="{% url '/archief.html' %}" alt="Archief">
+      <area shape="poly" coords="370,316,487,322,488,412,585,410,583,592,376,592" href="{% url '/contact.html' %}" alt="Contact">
     </map>
 </div>
 

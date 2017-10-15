@@ -3,9 +3,9 @@
 {% block current_over %}active{% endblock %}
 
 {% block submenu %}
-    <a class="{% block current_flats %}{% endblock %}" href="{% url 'flats.html' %}">De flats</a>
-	<a class="{% block current_woningen %}{% endblock %}" href="{% url 'woningen.html' %}">Woningen</a>
-	<a class="{% block current_bijzonderwonen %}{% endblock %}" href="{% url 'bijzonderwonen.html' %}">Bijzonder wonen</a>
-	<a class="{% block current_procedure %}{% endblock %}" href="{% url 'procedure.html' %}">Verhuisprocedure</a>
-	<a class="{% block current_bewonerscommissie %}{% endblock %}" href="{% url 'bewonerscommissie.html' %}">Bewonerscommissie</a>
+    <a class="{% block current_flats %}{% endblock %}" href="{% url '/flats.html' %}">De flats</a>
+	<a class="{% block current_woningen %}{% endblock %}" href="{% url '/woningen.html' %}">Woningen</a>
+	<a class="{% block current_bijzonderwonen %}{% endblock %}" href="{% url '/bijzonderwonen.html' %}">Bijzonder wonen</a>
+	<a class="{% block current_procedure %}{% endblock %}" href="{% url '/procedure.html' %}">Verhuisprocedure</a>
+	<a class="{% block current_bewonerscommissie %}{% endblock %}" href="{% url '/bewonerscommissie.html' %}">Bewonerscommissie</a>
 {% endblock %}

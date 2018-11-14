@@ -4,7 +4,7 @@ Experimentele flats
 [![GPLv3](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://github.com/experimentele-flats/experimentele-flats/blob/master/LICENSE)
 [![Travis Status](https://img.shields.io/travis/experimentele-flats/experimentele-flats/master.svg)](https://travis-ci.org/experimentele-flats/experimentele-flats)
 
-This is the website for the experimentele flats in Utrecht Overvecht.
+This is the website for the [experimentele flats](https://experimentele-flats.nl/) in Utrecht Overvecht.
 
 
 Installing cactus

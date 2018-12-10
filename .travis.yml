@@ -1,15 +1,18 @@
 language: python
 python:
-  - "2.7"
+  - "3.6"
 
 sudo: false
 
-before_install:
-  - pip install cactus
-  - wget https://raw.githubusercontent.com/mozilla/html5-lint/master/html5check.py
+addons:
+  apt:
+    packages:
+      - oracle-java8-set-default
+
+install:
+  - pip install -r requirements.txt
+  - pip install html5validator
 
 script:
   - cactus build
-  - cd .build 
-  - CHECK=$(for file in *.html; do python ../html5check.py -geh $file; done;)
-  - if [[ ! -z "$CHECK" ]]; then echo "$CHECK"; exit 1; fi;
+  - html5validator --root .build --show-warnings --also-check-css

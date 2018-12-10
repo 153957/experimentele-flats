@@ -12,12 +12,11 @@ Installing cactus
 
 This site uses [Cactus](https://github.com/eudicots/Cactus/) to build.
 
-Cactus is a Python program, so Python is required.
-Also pip is used to install Cactus.
+Cactus is a Python program, so Python is required and pip is used to install Cactus.
 Other packages that are required by Cactus will be automatically installed.
 So open a Terminal and run:
 
-    pip install cactus
+    pip install -r requirements.txt
 
 If all goes well Cactus can now be used.
 

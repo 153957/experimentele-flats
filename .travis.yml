@@ -2,6 +2,9 @@ language: python
 python:
   - "3.6"
 
+cache:
+  pip: true
+
 # Work around for boto bug:
 # https://github.com/boto/boto/issues/3717#issuecomment-430894557
 env:

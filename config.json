@@ -1,5 +1,6 @@
 {
     "prettify": false,
     "optimize": [],
-    "_fingerprint": ["js", "css", "jpg", "png"]
+    "_fingerprint": ["js", "css", "jpg", "png"],
+    "provider": "rackspace"
 }

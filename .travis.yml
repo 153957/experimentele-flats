@@ -24,3 +24,15 @@ install:
 script:
   - cactus build
   - html5validator --root .build --show-warnings --also-check-css
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: .build
+  target-branch: master
+  fqdn: experimentele-flats.nl
+  email: info@experimentele-flats.nl
+  name: ExperimenteleFlats-Bot
+  on:
+    branch: source

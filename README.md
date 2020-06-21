@@ -2,9 +2,16 @@ Experimentele flats
 ===================
 
 [![GPLv3](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://github.com/experimentele-flats/experimentele-flats.github.io/blob/master/LICENSE)
-[![Travis Status](https://img.shields.io/travis/experimentele-flats/experimentele-flats.github.io/source.svg)](https://travis-ci.com/experimentele-flats/experimentele-flats.github.io)
+[![GitHub build](https://img.shields.io/github/workflow/status/experimentele-flats/experimentele-flats.github.io/Build site and check output)
 
-This is the website for the [experimentele flats](https://experimentele-flats.nl/) in Utrecht Overvecht.
+This is the website for the [experimentele flats](https://www.experimentele-flats.nl/) in Utrecht Overvecht.
+
+
+Building the site
+-----------------
+
+Whenever changes are made to the source branch GitHub will automatically
+build the website and put it in the master branch.
 
 
 Installing cactus
@@ -28,17 +35,6 @@ and run:
 You can then point your browser to http://127.0.0.1:8000 to view the
 local version. If you make any changes to the code this should be
 reflected almost immediently in the local website.
-
-
-Synchronize
------------
-
-To update the live server use these commands:
-
-    cd [path to repository]
-    rm -rf .build
-    cactus build
-    rsync -avz .build/ [username]@[server address]:[path to web root]
 
 
 Colors & Fonts

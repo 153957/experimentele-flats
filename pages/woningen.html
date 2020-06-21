@@ -5,7 +5,9 @@
 
 {% block article %}
 
-<h3>De woningen</h3>
+{% filter markdown:'nofollow' %}
+
+### De woningen
 
 <span style="float: left; padding: 25px 0;">
     <a href="{% static '/static/images_over/plattegrond_3_kamerappartement.png' %}" target="_blank">
@@ -18,16 +20,15 @@
              src="{% static '/static/images_over/plattegrond_4_kamerappartement.png' %}"
              alt="Plattegrond 4 kamers">
     </a>
-    </span>
-<p>
-    Per verdieping zijn er vier appartementen: twee driekamer- en twee
-    vierkamer-woningen. De driekamerwoningen hebben een oppervlakte van 76 m²  
-    en een kale huur van ongeveer €655. De vierkamerwoningen hebben een oppervlakte 
-    van 86 m², hiervoor betaal je ongeveer €698 aan kale huur. Er komt nog 
-    ongeveer €12 aan servicekosten bij. Op dit moment is de inkomensgrens voor 
-    deze woningen op €38.000 gezet. Elke woning kan door schuifwanden 
-    op verschillende manieren worden ingedeeld.
-</p>
+</span>
+
+Per verdieping zijn er vier appartementen: twee driekamer- en twee
+vierkamer-woningen. De driekamerwoningen hebben een oppervlakte van 76 m²
+en een kale huur van ongeveer €655. De vierkamerwoningen hebben een oppervlakte
+van 86 m², hiervoor betaal je ongeveer €698 aan kale huur. Er komt nog
+ongeveer €12 aan servicekosten bij. Op dit moment is de inkomensgrens voor
+deze woningen op €38.000 gezet. Elke woning kan door schuifwanden
+op verschillende manieren worden ingedeeld.
 
 <span class="clear"></span>
 
@@ -37,15 +38,15 @@
          alt="Plattegrond verdieping">
 </a>
 
-<h3>Gezamenlijke hal</h3>
+### Gezamenlijke hal
 
-<p>
-    Op elke woonetage, met uitzondering van de begane grond, bevindt
-    zich een grote gemeenschappelijke hal van 60 m². Hier komen de voordeuren van
-    de vier woningen op uit. De halbewoners bepalen zelf hoe deze gebruikt
-    wordt en in welke mate er contact met de buren is. Over het algemeen
-    geldt dat bewoners in de Experimentele Flats graag meer onderling
-    contact hebben dan men gewend zou zijn in ‘normale’ flats.
-</p>
+Op elke woonetage, met uitzondering van de begane grond, bevindt
+zich een grote gemeenschappelijke hal van 60 m². Hier komen de voordeuren van
+de vier woningen op uit. De halbewoners bepalen zelf hoe deze gebruikt
+wordt en in welke mate er contact met de buren is. Over het algemeen
+geldt dat bewoners in de Experimentele Flats graag meer onderling
+contact hebben dan men gewend zou zijn in ‘normale’ flats.
+
+{% endfilter %}
 
 {% endblock %}

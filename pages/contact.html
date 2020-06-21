@@ -4,29 +4,26 @@
 
 {% block article %}
 
-<h3>Locatie en contact</h3>
+{% filter markdown:'nofollow' %}
+
+### Locatie en contact
 
 <a href="https://www.openstreetmap.org/#map=17/52.11997/5.10078" target="_blank" rel="noreferrer">
     <img style="float: left; padding: 10px; border-radius: 20px; width: 20%;"
          src="{% static '/static/images_contact/kaart.png' %}" alt="OpenStreetMap Kaart" />
 </a>
 
-<p>
-    De huurwoningen van de Experimentele Flats zijn te vinden aan de
-    Cayennedreef, Pernambucodreef en São Paulodreef in Utrecht.
-</p>
+De huurwoningen van de Experimentele Flats zijn te vinden aan de
+Cayennedreef, Pernambucodreef en São Paulodreef in Utrecht.
 
-<p>
-    Vragen, berichten, of inschrijfformulieren kunt u e-mailen naar
-    <a class="mail">[enable JavaScript]</a>
-</p>
+Vragen, berichten, of inschrijfformulieren kunt u e-mailen naar <a class="mail">[enable JavaScript]</a>
 
-<p>
-    Bezoek ook onze facebookpagina:
-    <a href="https://www.facebook.com/groups/1511961595728806/" target="_blank" rel="noreferrer">
-        <i style="font-size: 1.5em;" class="fa fa-facebook-square"></i>
-        Experimentele Flats Overvecht
-    </a>
-</p>
+Bezoek ook onze facebookpagina:
+<a href="https://www.facebook.com/groups/1511961595728806/" target="_blank" rel="noreferrer">
+    <i style="font-size: 1.5em;" class="fa fa-facebook-square"></i>
+    Experimentele Flats Overvecht
+</a>
+
+{% endfilter %}
 
 {% endblock %}

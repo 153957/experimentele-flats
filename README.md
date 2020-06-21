@@ -2,7 +2,7 @@ Experimentele flats
 ===================
 
 [![GPLv3](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://github.com/experimentele-flats/experimentele-flats.github.io/blob/master/LICENSE)
-[![GitHub build](https://img.shields.io/github/workflow/status/experimentele-flats/experimentele-flats.github.io/Build%20site%20and%20check%20output)
+![GitHub build](https://img.shields.io/github/workflow/status/experimentele-flats/experimentele-flats.github.io/Build%20site%20and%20check%20output)
 
 This is the website for the [experimentele flats](https://www.experimentele-flats.nl/) in Utrecht Overvecht.
 

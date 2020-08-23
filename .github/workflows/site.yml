@@ -23,6 +23,7 @@ jobs:
     - name: Build site
       run: |
         cactus build
+    - name: Check HTML
       uses: Cyb3r-Jak3/html5validator-action@v0.4.2
       with:
         root: .build/
